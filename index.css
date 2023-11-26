@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body{
+    height: 100vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(min.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 30px;
+  }
+  nav{
+      background-color: coral;
+      background-image: url(flower.jpeg);
+      padding: 8px;
+      margin: 30px 200px 0 200px;
+  
+  }
+  nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  padding: 10px;
+  }
+  nav li{
+      margin: 0 0 0 16px;
+      text-align: left;
+      padding: 10px;
+      
+  }
+  
+  section{
+    text-align: center;
+      padding: 10px;
+      margin: 10px 0 0 0;
+  }
+  
+  a{
+      color: blanchedalmond;
+    text-decoration: aliceblue;
+  }
+  a :hover{
+  text-decoration: wavy;
+  
+  }
+  .contact me form{
+      position: absolute;
+     width: 400px;
+  
+  }
+   h3{
+  font-size: 40px;
+      text-align: center;
+      text-transform: capitalize;
+     font-family: serif;
+      color: paleturquoise;
+      
+  
+  }
+  input{
+      font-size: 20px;
+      width: 50%;
+  }
+  button{ 
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+    text-align: bottom;
+  
+  }
+  
+   button:hover{
+      color: red;
+  
+   }
+    h1{
+      text-align: center;
+      font-size: larger;
+      color: black;
+      font-size: 50px;
+      font-style: italic;
+      text-transform: capitalize;
+  
+   }
+   #home p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: larger;
+    font-style: oblique;
+    display: flex;
+    align-items: flex-end;
+
+    
+    margin-right: 50%;
+   }
+   #about p{ 
+      font-style: italic;
+     color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif
+   }
+  #portfolio p{
+   text-decoration:dotted;
+    font-size: larger;
+  padding: 10px;
+  } 
+  h4{
+    font-size: 30px;
+    text-decoration: underline;
+    color: blue;
+    padding: 20px;
+  }
+  a.button-style{
+    border-radius: 8px;
+    background-color: aqua;
+    color: black;
+    padding: 10px 25px;
+    
+  }
+  footer{
+    color: purple;
+    text-align: center;
+    background-color: azure;
+    
+    
+    font-style: italic;
+  }
+  #video{
+  
+  margin-left: 30%;
+  border-radius: 10px;
+  }
+  .container{
+    display: flex;
+    align-items: flex-start;
+  }
+  #section{
+    text-align: center;
+    font-size: 20px;
+  }
+ 
+}
+@media screen  and (max-width :740px){
+   body{
+    background-image: url(flower.jpeg);
+   }
+}
+@media screen and (max-width:378px){
+    .container{
+       flex-direction:column ;
+       background-image: url(Chip.jpg);
+    }
+    
+}
+ 
+    
+  
+ 
+  
+     
+  
+  
+  
+  
+  
